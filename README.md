@@ -92,7 +92,7 @@ If the prop is a light source, the group tag also contains a `<circle/>` tag wit
 
 All definitions from image props also apply for these, except that the shape is not a `<rect/>` but a `<path/>` with the same rules as the wall paths above.
 
-Shapes can also not be light sources.
+Shapes can also not be light sources, and they don't have rotation (and so there's no `transform` attribute on the group).
 
 ### Token Props
 

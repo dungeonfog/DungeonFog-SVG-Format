@@ -84,7 +84,7 @@ The image prop's outline is defined using a standard `<rect/>` tag (using the `x
 * `flat`: Lit by dynamic light, with prop shadows shown
 * `flatnoprop`: Always lit by dynamic light (props do not cast shadows onto it)
 
-The shape tag als contains a `dgnfog:shadow` attribute with either `true` or `false` that indicates whether this prop casts a prop shadow.
+The shape tag also contains a `dgnfog:shadow` attribute with either `true` or `false` that indicates whether this prop casts a prop shadow.
 
 If the prop is a light source, the group tag also contains a `<circle/>` tag with `dgnfog:type="light"`. This tag has the prop's center as x and y coordinates and the light radius as attribute `r`. It also uses the light's color as the fill color for the circle.
 
